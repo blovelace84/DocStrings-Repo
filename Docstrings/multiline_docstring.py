@@ -10,4 +10,4 @@ def get_harry_potter_book(publication_year, title):
     str: A sentence describing the book and its publication year.
     """
     return f"The book {title!r} was published in the year {publication_year}."
-print(get_harry_potter_book.__doc__)
+help(get_harry_potter_book)
